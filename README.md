@@ -1,4 +1,4 @@
-## @superset-ui/legacy-plugin-chart-chord
+## @arthanasti/legacy-plugin-chart-chord
 
 [![Version](https://img.shields.io/npm/v/@superset-ui/legacy-plugin-chart-chord.svg?style=flat-square)](https://www.npmjs.com/package/@superset-ui/legacy-plugin-chart-chord)
 [![David (path)](https://img.shields.io/david/apache-superset/superset-ui-plugins.svg?path=packages%2Fsuperset-ui-legacy-plugin-chart-chord&style=flat-square)](https://david-dm.org/apache-superset/superset-ui-plugins?path=packages/superset-ui-legacy-plugin-chart-chord)
@@ -11,7 +11,7 @@ Configure `key`, which can be any `string`, and register the plugin. This `key` 
 lookup this chart throughout the app.
 
 ```js
-import ChordChartPlugin from '@superset-ui/legacy-plugin-chart-chord';
+import ChordChartPlugin from '@arthanasti/legacy-plugin-chart-chord';
 
 new ChordChartPlugin().configure({ key: 'chord' }).register();
 ```
